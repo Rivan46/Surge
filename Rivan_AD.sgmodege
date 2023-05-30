@@ -301,7 +301,7 @@ https?:\/\/helper\.2bulu\.com\/(greenPea\/queryTasks|proSpecial\/allData|saveSpl
 # > maoyan*
 ^https?:\/\/p0\.pipi\.cn\/adAdmin\/\w+.jpg\? 307
 # > meituxiuxiu
-^https:\/\/adui\.tg\.meitu\.com\/lua\/advertv4\/sync_load\.json 302
+^https?:\/\/adui\.tg\.meitu\.com\/lua\/advertv4\/sync_load\.json 302
 
 # ======= N ======= #
 
