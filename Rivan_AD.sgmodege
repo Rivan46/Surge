@@ -387,29 +387,167 @@ https://apis.lifeweek.com.cn/api/baseConfig/getIosNewConfig 302
 ^https?:\/\/api\.cloud\.189\.cn\/guns\/getOpenscreenBanners 302
 # > tianmaojingling
 ^https?:\/\/zconfig\.alibabausercontent\.com\/zconfig 302
-# > testflight
-^https?:\/\/testflight\.apple\.com\/v2\/accounts\/.*\/apps\/\d*/builds/\d*/install url request-body storefrontId" : ".*" request-body storefrontId" : "143441-1,29"
 # > TengXunShouJiGuanJia
-^https://otheve.beacon.qq.com\/analytics\/upload\?sid=.* url reject
+^https://otheve.beacon.qq.com\/analytics\/upload\?sid=.* 302
 # > TuNiu
-^https?:\/\/m\.tuniu\.com\/api\/operation\/splash\/ url reject
+^https?:\/\/m\.tuniu\.com\/api\/operation\/splash\/ 302
 # > TaoPiaoPiao
-^https://acs.m.taobao.com\/gw\/mtop.film.mtopadvertiseapi.queryadvertise\/5.0.* url reject
+^https://acs.m.taobao.com\/gw\/mtop.film.mtopadvertiseapi.queryadvertise\/5.0.* 302
 # > TianTianJiJin
-^https?:\/\/appactive\.1234567\.com\.cn\/AppoperationApi\/OperationService\/GetAppStartImg url reject
+^https?:\/\/appactive\.1234567\.com\.cn\/AppoperationApi\/OperationService\/GetAppStartImg 302
 # > topwidget
-https://top-widgets-api.xiaozujian.com/api/ad/config url reject
+https://top-widgets-api.xiaozujian.com/api/ad/config 302
 # > TencentNews
-^https?:\/\/r\.inews\.qq\.com\/(adsBlacklist|getFullScreenPic|getQQNewsRemoteConfig) url reject
-^https?:\/\/r\.inews\.qq\.com\/(getBannerAds|getNewsRemoteConfig|getSplash|searchHotCatList|upLoadLoc) url reject
+^https?:\/\/r\.inews\.qq\.com\/(adsBlacklist|getFullScreenPic|getQQNewsRemoteConfig) 302
+^https?:\/\/r\.inews\.qq\.com\/(getBannerAds|getNewsRemoteConfig|getSplash|searchHotCatList|upLoadLoc) 302
 # > taipinyang
-^https?:\/\/mrobot\.pconline\.com\.cn\/s-900\/onlineinfo\/cms\/launch url reject
+^https?:\/\/mrobot\.pconline\.com\.cn\/s-900\/onlineinfo\/cms\/launch 302
 # > tonghuashun
-^https?:\/\/adm\.10jqka\.com\.cn\/interface\/ad\/recommend url reject
+^https?:\/\/adm\.10jqka\.com\.cn\/interface\/ad\/recommend 302
 # > tengxundongman
-^https?:\/\/iphone\.ac\.qq\.com\/.*\/Support\/(getSystemConf|bootScreen) url reject
+^https?:\/\/iphone\.ac\.qq\.com\/.*\/Support\/(getSystemConf|bootScreen) 302
 # > tujiaminxu
-^https?:\/\/client\.tujia\.com\/bnbapp-node\/app\/portal\/getStartPictureAdvertising url reject
+^https?:\/\/client\.tujia\.com\/bnbapp-node\/app\/portal\/getStartPictureAdvertising 302
+
+# ======= U ======= #
+
+# ======= V ======= #
+
+# ======= W ======= #
+
+# > weipinhui
+^https?:\/\/mapi\.appvipshop\.com\/vips-mobile\/rest\/activity\/advertisement\/get 302
+^https?:\/\/b\.appsimg\.com\/upload\/momin 302
+^https?:\/\/mapi\.appvipshop\.com\/vips-mobile/rest/activity/advertisement/get 302
+^https:\/\/mapi\.appvipshop\.com\/vips-mobile\/rest\/iosAdInfo\/report 302
+# > WangYiDaShen
+^https?:\/\/god\.gameyw\.netease\.com\/v\d\/ad\/serving\/app-start 302
+# > WangYiyunyinyue
+#^https?:\/\/interface(\d)?.music.163.com\/eapi\/ad\/ 302
+# > WangYiYouXiang
+^https?:\/\/appconf\.mail\.163\.com\/mmad\/get\.do 302
+^https?:\/\/client\.mail\.163.com\/apptrack\/confinfo\/(searchMultiAds.do|showAds.do) 302
+# > WangYiYanXuan
+https://support.you.163.com/appversync/check.do 302
+^https?:\/\/support\.you\.163\.com\/xhr\/boot\/getBootMedia\.json 302
+^https?:\/\/m\.you\.163\.com\/activity\/popWindow 302
+^https?:\/\/yanxuan.nosdn\.127\.net\/(static-union\/)?.*\.gif 302
+^https?:\/\/yanxuan\.nosdn\.127\.net\/.*\.mp4 302
+# > weixindaihuo
+^https?:\/\/mp\.weixin\.qq\.com\/mp\/cps_product_info 302
+# > Weifeng
+^https?:\/\/api\.wfdata\.club\/v2\/yesfeng\/(infoCenterAd|yesList) 302
+# > Weico
+^https?:\/\/overseas.weico.cc\/portal.php\?a=get_coopen_ads 302
+# > wangyiwoniudushu
+^https?:\/\/easyreadfs\.nosdn\.127\.net\/ad-material\/ 302
+# > wangyikaola
+^https?:\/\/sp\.kaola\.com\/api\/openad 302
+^https?:\/\/gw\.kaola\.com\/gw\/dgmobile\/newOpenAd 302
+
+# ======= X ======= #
+
+# > xinyue
+^https?:\/\/bgw\.xinyue\.qq\.com\/xyapi\.PageService\/GetIndexPopFlash 302
+# > xierdun
+^https?:\/\/wcprd\.hilton\.com\.cn\/app-middleware\/graphql\?type=splashAd 302
+# > XiaoShuiMian
+^https?:\/\/api.psy-1.com\/cosleep\/startup 302
+# > XieCheng
+^https:\/\/ma-adx\.ctrip\.com\/_ma\.gif 302
+^https:\/\/mbd\.baidu\.com\/newspage\/api\/getmobads\?page\=landingshare 302
+# > XiChuangZhu
+^https?:\/\/lchttpapi\.xczim\.com\/1\.1\/functions\/getLaunchImageForIOS 302
+# > XiaoYi
+^https://api.xiaoyi.com\/v5\/app\/mobile\/ads 302
+^https://api.xiaoyi.com\/v5\/app\/config\?userid=.* 302
+# > xiachufang
+^https:\/\/api\.xiachufang\.com\/v\d\/ad/ 302
+# > xiaolishenghuo
+^https?:\/\/mpos-pic\.helipay\.com\/upload\/images\/advertisment 302
+# > xiaomi
+^https?:\/\/api\.m\.mi\.com\/v1\/app\/start 302
+# > xiaomiyoupin
+^https?:\/\/shopapi\.io\.mi\.com\/mtop\/mf\/resource\/homePage\/pageConfig 302
+# > xifandongman
+^https?:\/\/pzoap\.moedot\.net\/xgapp\.php\/v2\/top_notice 302
+# > xiangrikui
+^https?:\/\/client-api\.oray\.com\/materials\/SLCC_IOS_STARTUP\?lang=zh-Hans-CN 302
+# > xinruijulebu
+^https?:\/\/bgw\.xinyue\.qq\.com\/xyapi\.PageService\/GetIndexPopFlash 302
+
+# ======= Y ======= #
+
+# > yanaifei
+^https?:\/\/pipi\.4kya\.com\/\/xgapp\.php\/v3\/advert\.position=[^2]+ 302
+# > YangShiPin
+^https?:\/\/cdn\.cmgadx\.com\/sdk\/pool\/\w+\.json 302
+# > YiHaoDian
+^https?:\/\/venus\.yhd\.com\/memhome\/launchConfig 302
+# > YiKaoBang
+^https?:\/\/api\.yikaobang\.com\.cn\/client\/main\/homePageSmallAd 302
+^https?:\/\/api\.yikaobang\.com\.cn\/index\.php\/Client\/main\/startPage 302
+# > YouLinYouKe
+https://new-app-api.ylyk.com/v1/user/myinfo/adviser 302
+# > YinkeZhiBo
+^https?:\/\/service\.busi\.inke\.cn\/api\/flash\/screen 302
+# > YinxiangNote
+^https?:\/\/app\.yinxiang\.com\/ads\/ 302
+# > yonghui
+^https?:\/\/api\.yonghuivip\.com\/web\/shensuan\/ad\/getAd 302
+# > youshu
+^https?:\/\/gongdu\.youshu\.cc\/m\/open_screen\/list_by_udid 302
+# > yingshiyun
+^https?:\/\/i\.ys7\.com\/api\/ads\/ 302
+# > yuxueyuan
+^https?:\/\/.*\.yuxueyuan\.cn\/yxy-api-gateway\/api\/json\/advert\/getsAdStartScreen 307
+
+# ======= Z ======= #
+
+# > zhangshangshenghuo
+#^https?:\/\/mlife\.cmbchina\.com\/ClientFaceService\/api\/mlife\.clientface\.clientservice\.api\.advertiseService\/preCacheAdvertiseSec 302
+# > zhongguoyidong
+^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/init\/startInit 302
+^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/explorePage\/getAdverList 302
+# > zhongguoyidongjiangsu
+^https?:\/\/wap\.js\.10086\.cn\/jsmccClient\/cd\/market_content\/api\/v\d\/market_content\.page\.query 302
+# > zhongguoyidongshandong
+https?:\/\/m\.sd\.10086\.cn\/zapi\/app_common\/homeWelcome\/welcome.do 302
+# > zhongguoliantong
+^https?:\/\/m\.client\.10010\.com\/mobileService\/(activity|customer)\/(accountListData|get_client_adv|get_startadv) 302
+^https?:\/\/m\.client\.10010\.com\/uniAdmsInterface\/(getHomePageAd|getWelcomeAd) 302
+# > zhongguoyidongguangxi
+^https?:\/\/gx\.10086\.cn\/zt-portal\/gxhzg\/portal\/app\/api\/v 302
+# > zhongguoyidonganhui*
+^https?:\/\/api\.ahmobile\.cn:443\/eip\?eip_serv_id=app\.getAllNew 302
+# > zhuanzhuan
+^https?:\/\/app\.zhuanzhuan\.com\/zzx\/transfer\/getConfigInfo 302
+# > zhiboba
+^https?:\/\/a\.qiumibao\.com\/activities\/config\.php$ 302
+^https?:\/\/a\.qiumibao\.com\/ios\/config\/\?version_code= 302
+# > zuoyebang
+^https?:\/\/syh\.zybang\.com\/com\/adx\/ 302
+# > ZuiYou
+^https?:\/\/adapi\.izuiyou\.com\/ 302
+^https?:\/\/api\.izuiyou\.com\/ad\/ 302
+# > zhuishushenqi
+^https?:\/\/adx-cn\.anythinktech\.com\/bid 302
+# > zhangshangdaojucheng
+^https?:\/\/djcapp\.game\.qq\.com\/daoju\/igw\/main\/\?_service=welink\.ad\.list 302
+# > zhangyue
+^https?:\/\/ih2\.ireader\.com\/zyapi\/bookstore\/ad 302
+^https?:\/\/ih2\.ireader\.com\/zyapi\/self\/screen\/ad 302
+^https?:\/\/ih2\.ireader\.com\/zycl\/api\/ad 302
+# > ziru
+^https?:\/\/ztoread\.ziroom\.com\/ymerApi\/v\d\/index\/open 302
+# > zhongguoyinhang
+#^https?:\/\/mbs\.boc\.cn\/ubas-mgateway-static\/images\/advertType\/.+.jpg url 307
+# > zhuijudaren
+^https?:\/\/zjdr666\.com\/zjdr\.php\/v\d\/(version|top_notice\?|advert\?position=[^2]+) 302
+# > zhangshangyingxionglianmeng
+^https?:\/\/mlol\.qt\.qq\.com\/go\/recommend 302
+# > zhongguoyidongguangdong
+^https?:\/\/gd\.10086\.cn\/gmccapp\/serv\/\?servicename=GMCCAPP_704_002_001_001 302
 
 
 
@@ -428,6 +566,13 @@ ku'an = type=http-response,pattern=^https?:\/\/api\.coolapk\.com\/v6\/(feed\/(re
 kuake = type=http-response,pattern=^https?:\/\/open-cms-api\.uc\.cn\/open-cms,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ddgksf2013/Scripts/master/quark.js
 shunfeng = type=http-response,pattern=^https?:\/\/ccsp-egmas\.sf-express\.com\/cx-app-base\/base\/app\/ad\/queryInfoFlow,requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/shunfeng_json.js
 stay = type=http-response,pattern=^https?:\/\/api\.shenyin\.name\/stay-fork\/browse\/featured$,requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/stay.js
+微信解锁被屏蔽的Url = type=http-response,pattern=^https\:\/\/(weixin110\.qq|security.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\?,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/asset/UnblockURLinWeChat.js
+zhihu = type=http-response,pattern=^https?:\/\/api\.zhihu\.com\/commercial_api.*launch_v2,requires-body=1,max-size=0,script-path=https://github.com/ddgksf2013/Scripts/raw/master/zhihu_openads.js
+
+
+
+
+
 
 
 
