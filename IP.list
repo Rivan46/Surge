@@ -1,4 +1,8 @@
-更改网络IP显示
+# NAME: 更改网络IP显示
+# AUTHOR: Rivan
+# UPDATED: 2023-05-30
+# DOMAIN-SUFFIX: 2
+# TOTAL: 185
 # > 皮皮虾
 DOMAIN-SUFFIX,api5-hl.pipix.com
 #> 小红书
